@@ -35,7 +35,6 @@ public class WebTest {
     @AfterEach
     public void tearDown() {
         driver.quit();
-        driver = null;
     }
 
 
